@@ -1,0 +1,43 @@
+/* gift card css */
+#gift-cards-section{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    align-items: center;
+}
+#gift-card-title{
+    font-size: 40px;
+    font-weight: 400;
+    padding-right: 30%;
+}
+#gift-card-learn-more-btn{
+    padding: 15px 20px;
+    width: fit-content;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+/* Host QnA */
+#host-questions{
+    width: 100%;
+    height: 800px;
+    background-image: url("../Assets/Images/Main-section-3/host-QnA.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 60% 10px 50px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+#hosting-card-title{
+    font-size: 80px;
+    color: white;
+}
+#hosting-btn{
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 15px;
+}
+

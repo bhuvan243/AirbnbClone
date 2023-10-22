@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS Styles/universalStyles.css">
+    <link rel="stylesheet" href="./CSS Styles/navbarStyles.css">
+    <link rel="stylesheet" href="./CSS Styles/main-section1.css">
+    <link rel="stylesheet" href="./CSS Styles/main-section2.css">
+    <link rel="stylesheet" href="./CSS Styles/main-section3.css">
+    <link rel="stylesheet" href="./CSS Styles/footer-section.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav bar to be fixed on top itself -->
+    <nav>
+        <div id="nav-top">
+            <img id="header-logo" src="./Assets/logos/airbnb-logo-white.svg" alt="logo">
+            <div id="header-pages">
+                <span class="active-page">Places to stay</span>
+                <span>Experiences</span>
+                <span>Online Experiences</span>
+            </div>
+            <div id="header-right">
+                <span>Become a Host</span>
+                <span class="material-symbols-outlined">language</span>
+                <div id="member-bar">
+                    <span class="material-symbols-outlined" style="color: black;">menu</span>
+                    <span class="material-symbols-outlined" style="color: gray; font-size: 25px;">account_circle</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <center>
+                <div id="nav-searchtab">
+                    <div class="nav-searchbar-item">
+                        <span class="searchitem-heading">Location</span>
+                        <span class="searchitem-description">Where are you going?</span>
+                    </div>
+                    <div class="nav-searchbar-item">
+                        <span class="searchitem-heading">Check in</span>
+                        <span class="searchitem-description">Add dates</span>
+                    </div>
+                    <div class="nav-searchbar-item">
+                        <span class="searchitem-heading">Check out</span>
+                        <span class="searchitem-description">Add dates</span>
+                    </div>
+                    <div class="nav-searchbar-item" style="position: relative; display: flex; justify-content: center;">
+                        <span class="searchitem-heading">Guests</span>
+                        <span class="searchitem-description">Add guests</span>
+                        <div id="search-icon">
+                            <span class="material-symbols-outlined">search</span>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+    </nav>
+    <!-- banner section -->
+    <header>
+        <center>
+            <div id="banner-div">
+                <div>
+                    Not sure where to go? Perfect.
+                </div>
+                <button>I'm flexible</button>
+            </div>
+        </center>
+    </header>
+    <main>
+        <!-- Inspiration for your next trip - section -->
+        <section>
+            <h2>Inspiration for your next trip</h2>
+            <div id="trip-cards-list">
+                <!-- card 1 -->
+                <div class="trip-card">
+                    <img class="trip-card-image" src="./Assets/Images/Main-section-1/trip-card-1.svg"
+                        alt="trip-display-image">
+                    <span class="trip-card-title">Nashville</span>
+                    <span class="trip-card-distance">53 miles away</span>
+                </div>
+                <!-- card 2 -->
+                <div class="trip-card">
+                    <img class="trip-card-image" src="./Assets/Images/Main-section-1/trip-card-2.svg"
+                        alt="trip-display-image">
+                    <span class="trip-card-title">South Haven</span>
+                    <span class="trip-card-distance">168 miles away</span>
+                </div>
+                <!-- card 3 -->
+                <div class="trip-card">
+                    <img class="trip-card-image" src="./Assets/Images/Main-section-1/trip-card-3.svg"
+                        alt="trip-display-image">
+                    <span class="trip-card-title">Stanton</span>
+                    <span class="trip-card-distance">192 miles away</span>
+                </div>
+                <!-- card 4 -->
+                <div class="trip-card">
+                    <img class="trip-card-image" src="./Assets/Images/Main-section-1/trip-card-4.svg"
+                        alt="trip-display-image">
+                    <span class="trip-card-title">New Buffalo</span>
+                    <span class="trip-card-distance">130 miles away</span>
+                </div>
+            </div>
+        </section>
+        <!-- Discover Airbnb Experiences - section -->
+        <section>
+            <h2>Inspiration for your next trip</h2>
+            <div id="discover-cards-list">
+                <!-- card 1 -->
+                <div id="discover-card-1" class="discover-card">
+                    <span class="discover-card-title">Things to do on your trip</span>
+                    <button class="discover-card-button">Experiences</button>
+                </div>
+                <!-- card 2 -->
+                <div id="discover-card-2" class="discover-card">
+                    <span class="discover-card-title">Things to do from home</span>
+                    <button class="discover-card-button">Online Experiences</button>
+                </div>
+            </div>
+        </section>
+        <!-- section 3 -->
+        <section>
+            <!-- shop-airbnb cards -->
+            <div id="gift-cards-section">
+                <div>
+                    <h2 id="gift-card-title">Shop Airbnb gift cards</h2>
+                    <button id="gift-card-learn-more-btn">Learn more</button>
+                </div>
+                <img src="./Assets/Images/Main-section-3/gift-cards.svg" alt="Airbnb-git-cards">
+            </div>
+            <!-- QnA -->
+            <div id="host-questions">
+                <h2 id="hosting-card-title">Questions about hosting?</h2>
+                <button id="hosting-btn">Ask a Superhost</button>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <!-- Inspiration links -->
+        <section>
+            <h2>Inspiration for future getaways</h2>
+            <div id="inspiration-tabs-list">
+                <span class="inspiration-tab active-inspiration-tab">Destinations for art & culture</span>
+                <span class="inspiration-tab">Destinations for outdoor adventure</span>
+                <span class="inspiration-tab">Mountain cabins</span>
+                <span class="inspiration-tab">Beach destinations</span>
+                <span class="inspiration-tab">Popular destinations</span>
+                <span class="inspiration-tab">Unique stays</span>
+            </div>
+            <hr class="footer-hr-line">
+            <div class="destination-list">
+                <div class="destination-place">
+                    <span class="destination-city">Phoenix</span>
+                    <span class="destination-country">Arizona</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Hot Springs</span>
+                    <span class="destination-country">Arkansas</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Los Angeles</span>
+                    <span class="destination-country">California</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">San Diego</span>
+                    <span class="destination-country">California</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">San Fransisco</span>
+                    <span class="destination-country">California</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Barcelona</span>
+                    <span class="destination-country">Catalonia</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Prague</span>
+                    <span class="destination-country">Czechia</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Washington</span>
+                    <span class="destination-country">District of Columnbia</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Keswick</span>
+                    <span class="destination-country">England</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">London</span>
+                    <span class="destination-country">England</span>
+                </div>
+                <div class="destination-place">
+                    <span class="destination-city">Sarborough</span>
+                    <span class="destination-country">England</span>
+                </div>
+                <div>
+                    <button id="show-more-btn"><u>Show more</u></button>
+                </div>
+            </div>
+        </section>
+        <!-- Additional Links -->
+        <section id="additonal-links">
+            <div class="additional-links-list">
+                <span class="links-caption">Support</span>
+                <span>Help Center</span>
+                <span>Safety Information</span>
+                <span>Cancellation Options</span>
+                <span>Our COVID - 19 Response</span>
+                <span>Supporting people with disabispanties</span>
+                <span>Report a neighborhoood concern</span>
+            </div>
+            <div class="additional-links-list">
+                <span class="links-caption">Community</span>
+                <span>Airbnb.org: disaster respanef housing</span>
+                <span>Support: Afghan refugees</span>
+                <span>Celebrating diversity & belonging</span>
+                <span>Combating discriminatino</span>
+            </div>
+            <div class="additional-links-list">
+                <span class="links-caption">Hosting</span>
+                <span>Try hosting</span>
+                <span>AirCover: protection for Hosts</span>
+                <span>Explore hosting resources</span>
+                <span>Our COVID - 19 Response</span>
+                <span>Visit our community forum</span>
+                <span>How to host responsibly</span>
+            </div>
+            <div class="additional-links-list">
+                <span class="links-caption">About</span>
+                <span>Newsroom</span>
+                <span>Learn about new features</span>
+                <span>Letter from our founders</span>
+                <span>Careers</span>
+                <span>Investors</span>
+                <span>Airbnb Luxe</span>
+            </div>
+        </section>
+        <!-- bottom footer -->
+        <section id="bottom-most-footer">
+            <hr class="footer-hr-line">
+            <div id="bottom-footer">
+                <div>
+                    &copy; 2022 Airbnb, Inc.
+                    &#183; <a href="#">Privacy</a>
+                    &#183; <a href="#">Terms</a>
+                    &#183; <a href="#">Sitemap</a>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">language</span>
+                    <a href="#"><u>English (US)</u></a>
+                    <span class="material-symbols-outlined">attach_money</span>
+                    <a href="#"><u>USD</u></a>
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+/* css for "Discover Airbnb Experiences" cards */
+#discover-cards-list{
+    display: flex;
+    gap: 20px;
+}
+.discover-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: 400px;
+    padding: 7%;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+#discover-card-1{
+    background-image: url("../Assets/Images/Main-section-2/desert-cave.jpg");
+}
+#discover-card-2{
+    background-image: url("../Assets/Images/Main-section-2/holding-berry.jpg");
+}
+.discover-card-title{
+    font-size: 50px;
+    padding-right: 20%;
+}
+.discover-card-button{
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
