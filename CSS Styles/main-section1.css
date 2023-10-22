@@ -1,44 +1,45 @@
 /* css for "Inspiration for your next trip" cards */
-#trip-cards-list{
-    display: flex;
-    gap: 15px;
-    overflow-x: auto;
+#trip-cards-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  overflow-x: auto;
 }
-::-webkit-scrollbar{
-    display: none;
+::-webkit-scrollbar {
+  display: none;
 }
 /* bg colors for each cards */
-#trip-cards-list > div:nth-child(1){
-    background-color: #cc2d4a;
+#trip-cards-list > div:nth-child(1) {
+  background-color: #cc2d4a;
 }
-#trip-cards-list > div:nth-child(2){
-    background-color: #bc1b6e;
+#trip-cards-list > div:nth-child(2) {
+  background-color: #bc1b6e;
 }
-#trip-cards-list > div:nth-child(3){
-    background-color: #de3151;
+#trip-cards-list > div:nth-child(3) {
+  background-color: #de3151;
 }
-#trip-cards-list > div:nth-child(4){
-    background-color: #d93c30;
+#trip-cards-list > div:nth-child(4) {
+  background-color: #d93c30;
 }
 /* card styles */
-.trip-card{
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    gap: 20px;
-    border-radius: 10px;
-    overflow: hidden;
+.trip-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  gap: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.trip-card > span{
-    padding-inline: 20px;
-    color: white;
+.trip-card > span {
+  padding-inline: 20px;
+  color: white;
 }
-.trip-card-title{
-    font-size: 30px;
-    font-weight: 500;
+.trip-card-title {
+  font-size: 30px;
+  font-weight: 500;
 }
-.trip-card-distance{
-    font-size: 14px;
-    font-weight: 300; 
-    margin-bottom: 20%;   
+.trip-card-distance {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20%;
 }
